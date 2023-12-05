@@ -1,13 +1,16 @@
 
 const PostPage = async () => {
     const res = await fetch("http://localhost:5000/post", {
-        cache: "force-cache" // it's default  but shold be given
+        // cache: "force-cache" // it's default  but shold be given
+        next: {
+            revalidate: 5
+        }
     });
     const post = await res.json()
     console.log(post)
     return (
         <div>
-            <h1 className="text-2xl">Total post {post.length}</h1>
+            <h1 className="text-2xl">Total postsddsss {post.length}</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:grid-cols-4">
                 {
                     post.map((items, idx) => (

@@ -4,37 +4,37 @@
             "id": 1,
             "title": "Exploring the Cosmos",
             "description": "Embark on a cosmic journey as we delve into the mysteries of the universe. This captivating exploration takes you from distant galaxies to the secrets of black holes, unraveling the wonders that define our existence.",
-            "likes_count": 120
+            "likes_count": 1200
         },
         {
             "id": 2,
             "title": "Culinary Adventures",
             "description": "Savor the richness of global cuisine with our culinary escapades. From exotic street food to haute cuisine, join us on a delectable odyssey that will tickle your taste buds and ignite your passion for gastronomy.",
-            "likes_count": 88
+            "likes_count": 880
         },
         {
             "id": 3,
             "title": "Zen in Nature",
             "description": "Immerse yourself in the tranquility of nature's embrace. Discover the serene beauty of lush landscapes, serene waterfalls, and majestic mountains. Let the calming whispers of the wind guide you to inner peace.",
-            "likes_count": 200
+            "likes_count": 2000
         },
         {
             "id": 4,
             "title": "Tech Innovations Unveiled",
             "description": "Stay on the cutting edge of technology with our exclusive coverage of groundbreaking innovations. From AI breakthroughs to the latest in quantum computing, witness the future unfold before your eyes.",
-            "likes_count": 150
+            "likes_count": 1500
         },
         {
             "id": 5,
             "title": "Artistry in Motion",
             "description": "Experience the world of dynamic artistry in motion. From dance performances that defy gravity to visual spectacles that push the boundaries of creativity, join us on a mesmerizing journey through the arts.",
-            "likes_count": 180
+            "likes_count": 1800
         },
         {
             "id": 6,
             "title": "Historical Enigmas Revealed",
             "description": "Uncover the mysteries of the past with our in-depth exploration of historical enigmas. From ancient civilizations to unsolved mysteries, embark on a thrilling quest to decipher the secrets that shaped our world.",
-            "likes_count": 130
+            "likes_count": 1300
         }
     ]
 }
