@@ -1,11 +1,11 @@
-import Image from 'next/image'
+import React from 'react';
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <main className="">
-      <div className='container mx-auto'>
+    <div>
+      <h1 className='text-center font-bold text-2xl'>Welcome to next level data fetching</h1>
+    </div>
+  );
+};
 
-      </div>
-    </main >
-  )
-}
+export default HomePage;
