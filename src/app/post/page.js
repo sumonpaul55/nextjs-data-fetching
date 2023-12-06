@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import styles from "./Post.module.css"
 const PostPage = async () => {
     const res = await fetch("http://localhost:5000/post", {
         // cache: "force-cache"
@@ -12,7 +12,7 @@ const PostPage = async () => {
 
     return (
         <div>
-            <h1 className="text-2xl">Total postsddsss {post.length}</h1>
+            <h1 className={styles.pagetitle}>Total postsddsss {post.length}</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:grid-cols-4">
                 {
                     post.map((items, idx) => (
