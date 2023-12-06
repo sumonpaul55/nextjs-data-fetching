@@ -3,7 +3,7 @@ import Link from "next/link";
 export async function generateStaticParams() {
     const res = await fetch("http://localhost:5000/post");
     const post = await res.json();
-    const ids = post.map(post => {
+    const ids = post.slice(0, 4).map(post => {
         return { id: post.id + "" }
 
     })
