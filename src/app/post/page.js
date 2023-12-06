@@ -9,7 +9,7 @@ const PostPage = async () => {
         cache: "no-store"
     });
     const post = await res.json()
-    console.log(post)
+
     return (
         <div>
             <h1 className="text-2xl">Total postsddsss {post.length}</h1>
