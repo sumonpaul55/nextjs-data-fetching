@@ -1,13 +1,13 @@
 
 const PostPage = async () => {
     const res = await fetch("http://localhost:5000/post", {
-        // cache: "force-cache" // it's default  but shold be given
-        next: {
-            revalidate: 5
-        }
+        // cache: "force-cache"
+        // next: {
+        //     revalidate: 5,
+        // }
+        cache: "no-store"
     });
     const post = await res.json()
-    console.log(post)
     return (
         <div>
             <h1 className="text-2xl">Total postsddsss {post.length}</h1>
